@@ -1,0 +1,23 @@
+                         TASKVAULT
+                             │
+                 ┌───────────┴───────────┐
+                 │                       │
+             Next.js                  FastAPI
+                 │                       │
+        ┌────────┴────────┐              │
+        │                 │              │
+   Task Dashboard    AI Assistant       │
+        │                 │              │
+        │                 └──────────────┤
+        │                                │
+        │                           TaskVaultAgent
+        │                                │
+        │                             Gemini
+        │                                │
+        │                         Function Calling
+        │                                │
+        │                           MCP Client
+        │                                │
+        └─────────────── MCP Server ─────┘
+                              │
+                            SQLite
